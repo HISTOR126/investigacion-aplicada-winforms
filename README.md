@@ -1,21 +1,11 @@
 # investigacion aplicada
 
-WinForms: Permite crear aplicaciones de Windows de forma rápida mediante un diseñador visual de "arrastrar y soltar". Es ideal para interfaces sencillas y proyectos escolares.
+Esta actividad consiste en investigar el desarrollo de aplicaciones de escritorio en C# y el consumo de servicios web REST, aplicando lo aprendido mediante la creación de una aplicación en Windows Forms que consume una API pública de forma asíncrona y gestiona información de forma local.
 
-WPF: Separa el diseño gráfico de la lógica usando XAML. Soporta estilos avanzados, animaciones y aceleración por hardware mediante el patrón MVVM.
+El proyecto se divide en dos áreas principales:
 
-.NET MAUI: Es la alternativa moderna y multiplataforma. Permite desarrollar para Windows, macOS, Android e iOS utilizando un solo código base.
+En la parte teórica, investigaremos y expondremos sobre los fundamentos de Windows Forms en comparación con WPF, .NET MAUI, Electron y JavaFX, la arquitectura basada en eventos, el consumo de APIs REST mediante HttpClient, la serialización y deserialización de datos JSON con System.Text.Json, el uso correcto de async y await en interfaces gráficas y las estrategias para combinar datos externos con almacenamiento local.
 
-2. Arquitectura Basada en Eventos
+En la parte práctica, desarrollaremos una aplicación de escritorio para consultar información en tiempo real sin depender de un navegador. La aplicación contará con un formulario con controles como TextBox, Button y DataGridView para ingresar la búsqueda y visualizar los datos obtenidos de la API. Además, permitirá guardar y cargar una lista de consultas favoritas en un archivo local usando colecciones genéricas como List, e incluirá un manejo estricto de excepciones con bloques try-catch y mensajes claros en la interfaz para gestionar fallos de conexión o entradas inválidas.
 
-Bucle de Mensajes (Message Loop): Proceso en segundo plano que escucha de forma continua las acciones del usuario (clics, teclas) o del sistema operativo.
-
-Manejador de Eventos (Event Handler): Código en C# que se ejecuta automáticamente cuando ocurre una acción (por ejemplo, el método btnBuscar_Click() al presionar un botón).
-
-Hilo de la UI (UI Thread): Hilo principal encargado de renderizar la pantalla. Si realiza tareas pesadas sin asincronía, la interfaz se congela.
-
-3. Ventajas y Limitaciones: Escritorio vs. Web (ASP.NET)
-
-Ventajas del escritorio: Acceso directo a recursos del hardware local (impresoras, archivos), capacidad de funcionar sin conexión a Internet (offline) y respuesta inmediata de la interfaz.
-
-Limitaciones del escritorio: Requiere instalar el programa en cada equipo, las actualizaciones son manuales equipo por equipo y (en el caso de WinForms) se limita únicamente a Windows.
+Como entregables finales del equipo, presentaremos la aplicación funcional en nuestro repositorio de GitHub, elaboraremos una presentación de diapositivas de máximo 10 minutos para defender el trabajo de manera individual y entregaremos el documento en formato PDF antes de la fecha límite del 9 de septiembre.
